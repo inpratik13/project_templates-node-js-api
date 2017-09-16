@@ -8,6 +8,7 @@ NodeJS api, project template to get started.
 ## Things to implement
 * `app/lib/auth.js`
   * Specify user types (roles) you want to use, in the order from less to more rights in `ROLE_LEVEL` array.
+  * Specify your secret key in `SECRET_KEY` to use for secure generated tokens for API access
   * Implement your user retrieval code inside `findUserByCredential` function.
 * `app/routes/routes.js`
   * Login endpoint and some test endpoints to demostrate how to have an open endoint or a endpoint restricted to specific role types.
